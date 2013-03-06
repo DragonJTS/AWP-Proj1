@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<!-- 
+File: index.html
+Author: Jake Marshall
+Site: Jake's Portfolio
+Description: The index/home page of the site
+ -->
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Jake's Portfolio</title>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<!-- wrapper div -->
+	<div id="container">
+		<!-- wrapper for the header -->
+		<div id="header">
+			<div id="logo">
+				<!-- div containing the logo -->
+				<img src="img\logo.png" title="It's ugly, but it works!">
+			</div>
+			<!-- div containing navbar -->
+			<div id="nav">
+				<table>
+					<tr>
+						<td class="navCurrent">Home</td>
+						<td class="navLink"><a href="about.html">About Me</a></td>
+						<td class="navLink"><a href="projects.html">Projects</a></td>
+						<td class="navLink"><a href="services.html">Services</a></td>
+						<td class="navLink"><a href="https://github.com/DragonJTS"
+							target="_blank">Github</a></td>
+						<td class="navLink"><a href="contact.html">Contact Me</a></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		<!-- wrapper for the content -->
+		<div id="content">
+			<!-- div containing text -->
+			<div id="text">
+				<h1>The Codings of Jacob Marshall</h1>
+				<h2>Writing code that works</h2>
+				<p>My mission is to write code that does what it needs to do,
+					before all else. I am highly passionate about coding, and working
+					with computers. I've been using computers from a very young age,
+					and have always enjoyed expanding my knowledge of them. I believe
+					that the entire basis for a good program or site is a solid
+					back-end, and an attractive front end is nothing if what it's built
+					on isn't ship-shape. As such I love the chance to write code with
+					that in mind, rather then simply say i think that's how it should
+					be.</p>
+			</div>
+			<!-- div containing social media links -->
+			<div id="socialMedia">
+				<h3>Keep Connected!</h3>
+				<a href="https://www.facebook.com/DragonJTS"><img
+					src="img\facebook_icon.png"></a> <a
+					href="https://twitter.com/dragonjts"><img
+					src="img\twitter_icon.png"></a> <a
+					href="https://plus.google.com/u/0/100738580402055040836/posts"><img
+					src="img\google+_icon.png"></a>
+			</div>
+			<!-- div containing "view more work" button, and screenshot slideshow -->
+			<div id="work">
+				<h1>Featured Work</h1>
+				<a href="javascript:openLink()"><img src=" img\screenshot1.png"
+					id="slideviewer"></a>
+				<script src="js\slideshow.js"></script>
+				<br> <a href="projects.html">Click here for my portfolio!</a>
+			</div>
+		</div>
+	</div>
+	<!-- div containing footer, outside wrapper to put it below everything -->
+	<div id="footer">
+		<script src="js\footer.js"></script>
+	</div>
+</body>
+</html>
