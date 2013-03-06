@@ -1,8 +1,6 @@
-AWP-assign1
+AWP-proj1
 ===========
 
-Advanced Web Programmig - Assignment 1
+Advanced Web Programmig - Project 1
 
-Create a portfolio site
-
-Will serve as the basis for all future work
+Create a mobile version of your portfolio site
