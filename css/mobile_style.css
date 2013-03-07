@@ -7,7 +7,6 @@ Description: Style sheet for overiding CDN/theme sheets
 */
 
 /*style for header/logo*/
-
 .ui-header {
 	background: white;
 }
@@ -15,7 +14,7 @@ Description: Style sheet for overiding CDN/theme sheets
 #mobileLogo {
 	width: 150px;
 	display: block;
-	margin:0 auto;
+	margin: 0 auto;
 }
 /*resizes featured/services buttons*/
 .imageButton {
@@ -33,6 +32,16 @@ Description: Style sheet for overiding CDN/theme sheets
 }
 
 /* centers full site link*/
-#fullSite{
+#fullSite {
 	text-align: center;
+}
+
+/*styling for conent page*/
+#about {
+	width: 100%;
+}
+
+#selfImage {
+	float: left;
+	margin: 5px;
 }

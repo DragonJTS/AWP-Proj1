@@ -57,7 +57,7 @@ function next() {
 			+ ".png"; // changes image
 }
 
-$("#slideviewer").swiperight(function () { //when users swipes to right, copy of last function is called
+$("#slideviewer").swiperight(function () { //when users swipes to right, copy of "last" function is run
 	if (step > 1)
 		step--;
 	else
@@ -66,7 +66,7 @@ $("#slideviewer").swiperight(function () { //when users swipes to right, copy of
 			+ ".png"; // changes image
 });
 
-$("#slideviewer").swipeleft(function () { //when users swipes to right, copy of next function is called
+$("#slideviewer").swipeleft(function () { //when users swipes to right, copy of "next" function is run
 	if (step < 3)
 		step++;
 	else

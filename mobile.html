@@ -21,7 +21,8 @@ Description: The mobile index/home page of the site
 	src="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.js"></script>
 </head>
 <body>
-	<!-- All code in tags is for homepages. Allows all pages to be kept in single file-->
+	<!-- All code in this div is for homepage. Page role allows all pages to be kept in single file-->
+	<!-- Homepage -->
 	<div data-role="page" id="home">
 		<!-- Header role, holds logo and navbar -->
 		<header data-role="header">
@@ -38,11 +39,11 @@ Description: The mobile index/home page of the site
 
 		<!-- Content role, holds image buttons and slideshow-->
 		<section data-role="content">
-		<!-- Images that act as links -->
+			<!-- Images that act as links -->
 			<a href="#featured"><img src="img/featured_button.png"
 				class="imageButton"></a> <a href="#services"><img
 				src="img/services_button.png" class="imageButton"></a>
-				<!-- Slideshow, with additional features for mobile devices -->
+			<!-- Slideshow, with additional features for mobile devices -->
 			<div id="slideshow">
 				<a href="javascript:last()"><img src="img/back_button.png"
 					class="slideshow_button"></a><a href="javascript:openLink()"><img
@@ -52,13 +53,50 @@ Description: The mobile index/home page of the site
 			</div>
 			<script src="js\slideshow_mobile.js"></script>
 		</section>
-		
-<!-- footer role, hold copyright-->
+
+		<!-- footer role, hold copyright-->
 		<footer data-role="footer">
 			<h4>&copy; Jake Marshall, 2013</h4>
 		</footer>
-		
-<!-- Link to full site -->
+
+		<!-- Link to full site -->
+		<div id="fullSite">
+			<a href="index.html">Full Site</a>
+		</div>
+	</div>
+
+	<!-- About-->
+	<div data-role="page" id="about">
+		<header data-role="header">
+			<img src="img/logo_mobile.png" title="It's ugly, but it works!"
+				id="mobileLogo">
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#home" data-icon="back">Back</a></li>
+					<li><a href="#about" data-icon="info" class="ui-btn-active">About</a></li>
+					<li><a href="#contact" data-icon="star">Contact</a></li>
+				</ul>
+			</div>
+		</header>
+
+		<!-- Content role, holds image buttons and slideshow-->
+		<section data-role="content">
+			<img src="img/me.jpg" title="Looking Good!" id="selfImage">
+			<h1>Function Before Form</h1>
+			<p>I am 3rd year computer programming analyst student at Georgian
+				College. I have experience with several languages, including java
+				and C#, and have created several apps for both Windows Phone and
+				Windows 8. I have also graduated as a 2-year account student at
+				Georgian college.</p>
+		</section>
+
+
+		<!-- footer role, hold copyright-->
+		<footer data-role="footer">
+			<h4>&copy; Jake Marshall, 2013</h4>
+		</footer>
+
+		<!-- Link to full site -->
 		<div id="fullSite">
 			<a href="index.html">Full Site</a>
 		</div>
