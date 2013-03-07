@@ -36,7 +36,7 @@ Description: Style sheet for overiding CDN/theme sheets
 	text-align: center;
 }
 
-/*styling for conent page*/
+/*styling for about page, wraps text around image*/
 #about {
 	width: 100%;
 }
@@ -44,4 +44,9 @@ Description: Style sheet for overiding CDN/theme sheets
 #selfImage {
 	float: left;
 	margin: 5px;
+}
+
+/*styling for contact page, centres social media links*/
+#socialMedia{
+	text-align: center;
 }
