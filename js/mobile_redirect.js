@@ -5,4 +5,4 @@
 					.test(a.substr(0, 4)))
 		window.location = b;
 })(navigator.userAgent || navigator.vendor || window.opera,
-		'index_mobile.html');
+		'mobile.html');
