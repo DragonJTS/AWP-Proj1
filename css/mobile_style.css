@@ -47,6 +47,19 @@ Description: Style sheet for overiding CDN/theme sheets
 }
 
 /*styling for contact page, centres social media links*/
-#socialMedia{
+#socialMedia {
 	text-align: center;
+}
+
+/*Styling for projects page*/
+#projects {
+	text-align: center;
+}
+
+.horizontalPhoneProject img {
+	width: 100%;
+}
+
+.verticalPhoneProject img {
+	height: 50%;
 }

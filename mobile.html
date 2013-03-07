@@ -40,7 +40,7 @@ Description: The mobile index/home page of the site
 		<!-- Content role, holds image buttons and slideshow-->
 		<section data-role="content">
 			<!-- Images that act as links -->
-			<a href="#featured"><img src="img/featured_button.png"
+			<a href="#projects"><img src="img/featured_button.png"
 				class="imageButton"></a> <a href="#services"><img
 				src="img/services_button.png" class="imageButton"></a>
 			<!-- Slideshow, with additional features for mobile devices -->
@@ -140,6 +140,76 @@ Description: The mobile index/home page of the site
 					src="img/twitter_icon.png"></a> <a
 					href="https://plus.google.com/u/0/100738580402055040836/posts"><img
 					src="img/google+_icon.png"></a>
+			</div>
+		</section>
+
+
+		<!-- footer role, hold copyright-->
+		<footer data-role="footer">
+			<h4>&copy; Jake Marshall, 2013</h4>
+		</footer>
+
+		<!-- Link to full site -->
+		<div id="fullSite">
+			<a href="index.html">Full Site</a>
+		</div>
+	</div>
+
+	<!-- Projects -->
+	<div data-role="page" id="projects">
+		<!-- Header role, holds logo and navbar -->
+		<header data-role="header">
+			<img src="img/logo_mobile.png" title="It's ugly, but it works!"
+				id="mobileLogo">
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#contact" data-icon="gear" class="ui-btn-active">Projects</a></li>
+					<li><a href="#home" data-icon="back">Back</a></li>
+					<li><a href="#about" data-icon="grid">Services</a></li>
+				</ul>
+			</div>
+		</header>
+
+		<!-- Content role, holds image buttons and slideshow-->
+		<section data-role="content">
+			<div id="projects">
+				<h1>Projects!</h1>
+				<!-- subdivs containing a project's title, screenshot, and description (with link) -->
+				<div class="horizontalPhoneProject">
+					<a
+						href="http://www.windowsphone.com/en-us/store/app/snakeit/d829cac5-9e8a-4245-9ebd-0d3cc3b06bc7"><h2>SnakeIt</h2>
+						<img src="img/screenshot1.png" title="SnakeIt"
+						class="horizontalPhone"></a>
+					<p>A recreation of the classic "Snake" game for the Windows
+						Phone. Eat as much food as you can without hitting yourself or a
+						wall. The more you eat, the longer you get!</p>
+				</div>
+				<div class="horizontalPhoneProject">
+					<a
+						href="http://www.windowsphone.com/en-us/store/app/asteroid-field/a33ee253-4561-4a3a-bf4a-de68bdded002"><h2>Asteroid
+							Field</h2> <img src="img/screenshot2.png" title="Asteroid Field"
+						class="horizontalPhone"></a>
+					<p>A forced sidescroller for the Windows Phone. Dodge the
+						asteroid while collecting the minerals. Last as long as you can!</p>
+				</div>
+				<div class="horizontalPhoneProject">
+					<a
+						href="http://www.windowsphone.com/en-us/store/app/zombie-runner/2519d89c-8e74-4597-8047-9081b69c03c7"><h2>Zombie
+							Runner</h2> <img src="img/screenshot3.png" title="Zombie Runner"
+						class="horizontalPhone"></a>
+					<p>A top down game for the Windows Phone. Avoid zombies for as
+						long as you can! The longer you survive, the more zombies will
+						come in search for your delicious brains!</p>
+				</div>
+				<div class="verticalPhoneProject">
+					<a
+						href="http://www.windowsphone.com/en-us/store/app/freefall/70c8ee3b-e95a-42de-8669-367eddc62a08"><h2>FreeFall</h2>
+						<img src="img/screenshot4.png" title="FreeFall"
+						class="verticalPhone"></a>
+					<p>Guide yourself between holes in the floor as you fall. The
+						longer you fall, the faster your velocity gets. How long can you
+						last?</p>
+				</div>
 			</div>
 		</section>
 
