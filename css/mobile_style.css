@@ -1,0 +1,38 @@
+@CHARSET "ISO-8859-1";
+/*
+File: mobile_style.css
+Author: Jake Marshall
+Site: Jake's Portfolio Mobile
+Description: Style sheet for overiding CDN/theme sheets
+*/
+
+/*style for header/logo*/
+
+.ui-header {
+	background: white;
+}
+
+#mobileLogo {
+	width: 150px;
+	display: block;
+	margin:0 auto;
+}
+/*resizes featured/services buttons*/
+.imageButton {
+	width: 49%;
+}
+
+/*styling for slideshow*/
+#slideshow {
+	width: 100%;
+	margin: 0 auto;
+}
+
+#slideviewer {
+	width: 75%;
+}
+
+/* centers full site link*/
+#fullSite{
+	text-align: center;
+}
