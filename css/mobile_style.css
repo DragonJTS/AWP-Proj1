@@ -6,7 +6,12 @@ Site: Jake's Portfolio Mobile
 Description: Style sheet for overiding CDN/theme sheets
 */
 
-/*style for header/logo*/
+/*Set page defaults*/
+body {
+	font-family: 'Sintony', serif;
+}
+
+/*makes background white for logo display, without affecting list header*/
 .ui-header {
 	background: white;
 }
