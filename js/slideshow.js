@@ -10,7 +10,7 @@ function changeImage() { //when called, sets the image to the next one in sequen
 		step++;
 	else
 		step = 1; //resets sequence at end
-	document.getElementById("slideviewer").src = "img\\screenshot" + step //changes image
+	document.getElementById("slideviewer").src = "img/screenshot" + step //changes image
 			+ ".png";
 	setTimeout("changeImage()", 3000); //runs every 3 seconds
 }
