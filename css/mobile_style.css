@@ -63,3 +63,8 @@ Description: Style sheet for overiding CDN/theme sheets
 .verticalPhoneProject img {
 	height: 50%;
 }
+
+/*ceters services header*/
+#services h1 {
+	text-align: center;
+}

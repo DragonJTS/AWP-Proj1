@@ -3,7 +3,7 @@
 File: index_mobile.html
 Author: Jake Marshall
 Site: Jake's Portfolio Mobile
-Description: The mobile index/home page of the site
+Description: The mobile page of the site. uses roles to put all pages inside one file
  -->
 <html>
 <head>
@@ -163,9 +163,9 @@ Description: The mobile index/home page of the site
 				id="mobileLogo">
 			<div data-role="navbar">
 				<ul>
-					<li><a href="#contact" data-icon="gear" class="ui-btn-active">Projects</a></li>
+					<li><a href="#projects" data-icon="gear" class="ui-btn-active">Projects</a></li>
 					<li><a href="#home" data-icon="back">Back</a></li>
-					<li><a href="#about" data-icon="grid">Services</a></li>
+					<li><a href="#services" data-icon="grid">Services</a></li>
 				</ul>
 			</div>
 		</header>
@@ -211,6 +211,47 @@ Description: The mobile index/home page of the site
 						last?</p>
 				</div>
 			</div>
+		</section>
+
+
+		<!-- footer role, hold copyright-->
+		<footer data-role="footer">
+			<h4>&copy; Jake Marshall, 2013</h4>
+		</footer>
+
+		<!-- Link to full site -->
+		<div id="fullSite">
+			<a href="index.html">Full Site</a>
+		</div>
+	</div>
+
+	<!-- Services -->
+	<div data-role="page" id="services">
+		<!-- Header role, holds logo and navbar -->
+		<header data-role="header">
+			<img src="img/logo_mobile.png" title="It's ugly, but it works!"
+				id="mobileLogo">
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#projects" data-icon="gear">Projects</a></li>
+					<li><a href="#home" data-icon="back">Back</a></li>
+					<li><a href="#services" data-icon="grid" class="ui-btn-active">Services</a></li>
+				</ul>
+			</div>
+		</header>
+
+		<!-- Content role, holds image buttons and slideshow-->
+		<section data-role="content">
+			<h1>Services!</h1>
+			<p>I offer backend code for websites, as well as creation of
+				programs, with expertise in the area of Windows Phone and Windows 8
+				apps.</p>
+			<p>I can write scripts for your website, including javascript and
+				php, offering code for both static and dynamic webpages.</p>
+			<p>I can also code stand-alone programs and apps in multiple
+				languages, including java, python, visual basic, and c#. An example
+				of my work in coding c# on the windows phone can be found on the
+				projects page</p>
 		</section>
 
 
